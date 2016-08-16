@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.appy" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".loginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".answer_Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- Add Product Activity -->
+
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name=".comActivity1"
+            android:label="COM ans" >
+        </activity>
+        <activity
+            android:name=".mcomActivity1"
+            android:label="COM ans" >
+        </activity>
+
+        <activity
+            android:name=".search2"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".searching"
+            android:label="@string/title_activity_searching" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IITK Quora</string>
+    <string name="action_settings">Menuitem</string>
+    <string name="font_fontFamily_medium">sans-serif</string>
+    <string name="title_activity_home">Home</string>
+   <string name="write_edit_text">Write a Question </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Password is too short</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+
+    <string name="comment">Add a comment</string>
+    <string name="search">search a name</string>
+
+    <string name="write_ans">Leave a Reply </string>
+
+
+    <string-array name="question">
+        <item>What is a Grand canyon?</item>
+        <item>How many tons har Rohit sharma hit?</item>
+        <item>Can a person breathe in water</item>
+        <item>Are you a racist</item>
+        <item>Is Kamble a good person</item>
+    </string-array>
+    <string-array name="answers">
+        <item>Dont know</item>
+        <item>i dont care</item>
+        <item>nope</item>
+        <item>nope</item>
+        <item>Hell yeah!</item>
+    </string-array>
+    <string name="title_activity_search">search</string>
+    <string name="title_activity_searching">searching</string>
+
+
+</resources>
